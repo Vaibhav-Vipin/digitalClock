@@ -5,7 +5,8 @@
 int main()
 {
     int gd=DETECT,gm;
-    initgraph(&gd,&gm,"C:\\TC\\BGI");
+    // initgraph(&gd,&gm,"C:\\TC\\BGI");
+    initwindow(1000,600);
     time_t rawtime;
     struct tm* currentTime;
     char a[100];
